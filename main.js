@@ -14,9 +14,9 @@ class Apartment {
 }
 
 class House {
-    apartments = [];
-
+    
     constructor(maxApartments) {
+        this.apartments = [];
         this.maxApartments = maxApartments;
     }
 
